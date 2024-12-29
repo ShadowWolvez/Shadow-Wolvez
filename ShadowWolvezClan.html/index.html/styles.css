@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shadow Wolvez Clan</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link your existing CSS file -->
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Shadow Wolvez Clan</h1>
+      <p>"Victoria Concordia Crescit"</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#apply">Apply</a></li>
+        <li><a href="#appeal">Ban Appeal</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to the Shadow Wolvez Clan</h2>
+    <p>At Shadow Wolves (SDWZ), we live by our motto, Victoria Concordia Crescit—Victory grows through harmony. It’s more than just a phrase; it embodies our core philosophy. By creating an environment of mutual respect and collaboration, we empower each other to reach new heights and secure victory.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Image Gallery</h2>
+    <div class="image-gallery">
+      <img src="images/clan-image1.jpg" alt="Clan Event">
+      <img src="images/clan-image2.jpg" alt="Victory Moment">
+      <img src="images/clan-image3.jpg" alt="Teamwork">
+      <!-- Add more images as necessary -->
+    </div>
+  </section>
+
+  <section id="media">
+    <h2>Video Gallery</h2>
+    <div class="video-gallery">
+      <video controls>
+        <source src="videos/clan-video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Shadow Wolvez Clan | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

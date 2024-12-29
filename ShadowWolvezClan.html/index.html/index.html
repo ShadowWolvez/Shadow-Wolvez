@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shadow Wolvez Clan</title>
+  <style>
+    /* Basic styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 255, 0, 0.3);
+    }
+
+    header .logo img {
+      width: 150px;  /* Adjust size */
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    header .logo p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin-top: 20px;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 1.2rem;
+      position: relative;
+    }
+
+    header nav ul li a::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #0f0;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+
+    header nav ul li a:hover::after {
+      transform: scaleX(1);
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: #0f0;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .video-gallery, .image-gallery {
+      margin-top: 20px;
+    }
+
+    .video-gallery video {
+      width: 100%;
+      max-width: 600px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+
+    .image-gallery img {
+      width: 100%;
+      max-width: 500px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #0f0;
+      color: #111;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      text-transform: uppercase;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
+    }
+
+    button:hover {
+      background-color: #0c0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #222;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- Load the logo from the 'images' folder -->
+      <img src="images/logo.png" alt="Shadow Wolvez Clan Logo">
+      <p>"Victoria Concordia Crescit"</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#standards">Standards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to the Shadow Wolvez Clan</h2>
+    <p>At Shadow Wolves (SDWZ), we live by our motto, Victoria Concordia Crescit—Victory grows through harmony. It’s more than just a phrase; it embodies our core philosophy. By creating an environment of mutual respect and collaboration, we empower each other to reach new heights and secure victory.</p>
+  </section>
+
+  <section id="media">
+    <h2>Clan Media</h2>
+    
+    <!-- Video Section -->
+    <div class="video-gallery">
+      <h3>Clan Videos</h3>
+      <video controls>
+        <source src="videos/clan-video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls>
+        <source src="videos/clan-video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section id="rules">
+    <h2>Clan Rules</h2>
+    <ul>
+      <li><strong>Be Respectful & Kind</strong>: Treat all members with kindness and respect. We’re here to build each other up, not tear each other down.</li>
+      <li><strong>Keep It Fun</strong>: This is a chill space, so keep the vibes light and fun.</li>
+      <li><strong>No Drama</strong>: Leave personal drama at the door. Resolve issues privately or reach out to a moderator.</li>
+      <li><strong>Communication is Key</strong>: Stay active in the clan’s chat or voice channels.</li>
+      <li><strong>Play for the Group</strong>: Help each other out, support your teammates, and work together!</li>
+      <li><strong>Chill with Toxicity</strong>: No toxic behavior. If frustrated, take a break.</li>
+      <li><strong>Wear the Clan Tag "SDWZ"</strong>: Represent the clan proudly!</li>
+      <li><strong>Act-IDs</strong>: Put your Activision IDs in the act-ids chat.</li>
+      <li><strong>Help New Members Feel Welcome</strong>: Make sure everyone feels included.</li>
+      <li><strong>Have a Good Time!</strong>: Most importantly, enjoy the game with friends.</li>
+    </ul>
+  </section>
+
+  <section id="requirements">
+    <h2>Clan Requirements</h2>
+    <ol>
+      <li>Must be 18+ 🧑‍🦳</li>
+      <li>Active on a regular basis 🕹️</li>
+      <li>Strong communication and teamwork skills 🎤</li>
+      <li>Positive attitude & a desire to grow with the clan 💪</li>
+      <li>Play regularly with the clan and attend events 🏆</li>
+      <li>Respect for all clan members and the community 🙌</li>
+      <li>Willingness to improve your skills 📈</li>
+      <li>Be available for voice communication during clan activities 🎮</li>
+      <li>Wear the clan tag “SDWZ” in-game at all times 🏅</li>
+      <li>Be committed to the clan's goals, whether competitive or fun 🎯</li>
+    </ol>
+  </section>
+
+  <section id="standards">
+    <h2>Clan Standards</h2>
+    <ul>
+      <li><strong>1. Skill Level</strong>: Maintain a positive K/D ratio, good teamwork, and game knowledge.</li>
+      <li><strong>2. Communication</strong>: Use voice chat for coordination, follow the clan's communication protocols.</li>
+      <li><strong>3. Clan Loyalty</strong>: Participate in clan events and scrims, align with the clan’s goals.</li>
+      <li><strong>4. Sportsmanship</strong>: Maintain a positive and respectful attitude towards others.</li>
+      <li><strong>5. Active Participation</strong>: Attend clan events, scrims, and challenges when possible.</li>
+      <li><strong>6. Respect the Chain of Command</strong>: Listen to clan leaders for guidance and instructions.</li>
+      <li><strong>7. Clan Rules and Code of Conduct</strong>: Follow all clan rules, avoid cheating, and maintain fair play.</li>
+      <li><strong>8. Time Zone/Play Schedule</strong>: Be consistent with your availability for clan activities.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions or want to join the Shadow Wolvez Clan, reach out to us at:</p>
+    <p>Email: <a href="mailto:shadowwolvezcallofduty@gmail.com">shadowwolvezcallofduty@gmail.com</a></p>
+    <p>Our goal is to create a fun, respectful, and supportive community where we grow together and enjoy the game!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Shadow Wolvez Clan | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
